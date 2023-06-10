@@ -1,7 +1,7 @@
 import { HomeBanner } from './components';
 import { Header } from './layouts';
 
-export const Home = () => {
+export const Page = () => {
   return (
     <main>
       <Header />
@@ -13,4 +13,4 @@ export const Home = () => {
   );
 };
 
-export default Home;
+export default Page;
