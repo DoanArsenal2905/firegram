@@ -21,15 +21,14 @@ export function Button({
     <button
       className={clsx(
         className,
-        'h-10 font-medium px-6 transition-colors duration-200 ease-in-out',
+        'h-10 w-full font-semibold px-6 transition-colors duration-200 ease-in-out',
         {
           'rounded-full': appearance === 'circle',
           'rounded-lg': appearance === 'rectangle',
-          'bg-[#ff6584] text-white hover:opacity-90': background === 'primary',
-          'bg-[#EA8FA0] hover:opacity-80 transition ease-in-out duration-300 text-white':
+          'bg-pink text-white hover:opacity-90': background === 'primary',
+          'bg-dark hover:opacity-80 transition ease-in-out duration-300 text-white':
             background === 'secondary',
-          'bg-white hover:bg-[#e6e6e6] text-[#175FEF]':
-            background === 'tertiary',
+          'bg-input hover:bg-[#e7e7e9] text-primary': background === 'tertiary',
         }
       )}
       type={type}

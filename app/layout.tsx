@@ -1,5 +1,6 @@
-import './globals.scss';
 import { Lato } from 'next/font/google';
+
+import './globals.scss';
 
 const lato = Lato({ weight: '400', subsets: ['latin'] });
 
